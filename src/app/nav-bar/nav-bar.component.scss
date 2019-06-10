@@ -1,0 +1,39 @@
+.left-part {
+  img {
+    width: 285px;
+    height: 60px;
+  }
+}
+
+.col-md-8 {
+  margin: auto;
+}
+
+.navbar {
+  li {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .left-part {
+    margin: 20px 0px;
+  }
+
+  .navbar-brand::after {
+    content: "Home";
+    padding-left: 10px;
+  }
+}

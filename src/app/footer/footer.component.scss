@@ -1,0 +1,51 @@
+#footer-section {
+  background-color: #1a1a1a;
+
+  .container .row:first-child {
+    padding: 30px 0;
+
+    p,
+    li {
+      font-size: 14px;
+    }
+
+    .about-us p {
+      line-height: 25px;
+    }
+
+    .quick-links ul {
+      list-style: none;
+      padding-left: 0;
+
+      li:before {
+        content: '✓';
+        color: #56badd;
+        padding-right: 5px;
+      }
+    }
+  }
+
+  .locate-us .imgBox {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#copy-right-section {
+  background-color: #f1584a;
+
+  .navbar {
+    padding: 13px 0;
+  }
+
+  ul li {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .list-inline-item:not(:last-child) {
+    border-right: 1px solid;
+    line-height: 12px;
+  }
+}
